@@ -1,8 +1,3 @@
-![phaser3-parceljs-template](https://user-images.githubusercontent.com/2236153/71606463-37a0da80-2b2e-11ea-9b5f-5d26ccc84f91.png)
-
-# Phaser 3 + Parcel Template
-> For people who want to spend time making games instead of configuring build tools.
-
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Prerequisites
@@ -135,11 +130,6 @@ parcel src/index.html -p 8000
 
 Change 8000 to whatever you want.
 
-## Other Notes
-
-[parcel-plugin-clean-easy](https://github.com/lifuzhao100/parcel-plugin-clean-easy) is used to ensure only the latest files are in the `dist` folder. You can modify this behavior by changing `parcelCleanPaths` in `package.json`.
-
-[parcel-plugin-static-files](https://github.com/elwin013/parcel-plugin-static-files-copy#readme) is used to copy static files from `public` into the output directory and serve it. You can add additional paths by modifying `staticFiles` in `package.json`.
 
 ## License
 
